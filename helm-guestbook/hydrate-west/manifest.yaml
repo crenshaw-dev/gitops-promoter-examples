@@ -1,0 +1,61 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: helm-guestbook
+    chart: helm-guestbook-0.1.0
+    heritage: Helm
+    release: prod-helm-guestbook-west
+  name: prod-helm-guestbook-west
+spec:
+  ports:
+    - name: http
+      port: 80
+      protocol: TCP
+      targetPort: http
+  selector:
+    app: helm-guestbook
+    release: prod-helm-guestbook-west
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: helm-guestbook
+    chart: helm-guestbook-0.1.0
+    heritage: Helm
+    region: us-west-2
+    release: prod-helm-guestbook-west
+  name: prod-helm-guestbook-west
+spec:
+  replicas: 3
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: helm-guestbook
+      release: prod-helm-guestbook-west
+  template:
+    metadata:
+      labels:
+        app: helm-guestbook
+        region: us-west-2
+        release: prod-helm-guestbook-west
+    spec:
+      containers:
+        - image: gcr.io/google-samples/gb-frontend:v5
+          imagePullPolicy: IfNotPresent
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          name: helm-guestbook
+          ports:
+            - containerPort: 80
+              name: http
+              protocol: TCP
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources: {}
