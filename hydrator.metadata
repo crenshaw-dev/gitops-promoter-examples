@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/crenshaw-dev/gitops-promoter-examples",
-  "drySha": "f2fec971ec2eef4af29461e5936fc1df5c6ea48e",
+  "drySha": "8a2e3b1a2e903e89d6a6735389ba860e783304f4",
   "author": "Michael Crenshaw <350466+crenshaw-dev@users.noreply.github.com>",
-  "date": "2026-01-29T15:11:28Z",
-  "subject": "Add helm-guestbook/values.yaml"
+  "date": "2026-01-29T16:21:55Z",
+  "subject": "scale down"
 }
