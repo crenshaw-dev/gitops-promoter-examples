@@ -1,6 +1,6 @@
 {
   "repoURL": "https://github.com/crenshaw-dev/gitops-promoter-examples",
-  "drySha": "294e95094ecb540364fb5b90585b8bb09abd90d3",
+  "drySha": "f268d0ddeedc8c485de3ea2f1a33169d6307231f",
   "commands": [
     "helm template . --name-template staging-helm-guestbook --namespace staging --values ./helm-guestbook/staging-values.yaml --include-crds"
   ]
