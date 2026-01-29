@@ -3,4 +3,4 @@ service:
 
 region: us-west-2
 
-replicaCount: 1
+replicaCount: 2
