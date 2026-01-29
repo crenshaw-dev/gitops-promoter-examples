@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/crenshaw-dev/gitops-promoter-examples",
-  "drySha": "34ab77484e58cefd7f3c380730b5dc2068fe1920",
+  "drySha": "294e95094ecb540364fb5b90585b8bb09abd90d3",
   "author": "Michael Crenshaw <350466+crenshaw-dev@users.noreply.github.com>",
-  "date": "2026-01-23T21:03:08Z",
-  "subject": "Add helm-guestbook/values-production-west.yaml"
+  "date": "2026-01-29T16:23:27Z",
+  "subject": "scale up"
 }
