@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/crenshaw-dev/gitops-promoter-examples",
-  "drySha": "8a2e3b1a2e903e89d6a6735389ba860e783304f4",
+  "drySha": "294e95094ecb540364fb5b90585b8bb09abd90d3",
   "author": "Michael Crenshaw <350466+crenshaw-dev@users.noreply.github.com>",
-  "date": "2026-01-29T16:21:55Z",
-  "subject": "scale down"
+  "date": "2026-01-29T16:23:27Z",
+  "subject": "scale up"
 }

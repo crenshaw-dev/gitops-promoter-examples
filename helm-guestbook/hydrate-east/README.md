@@ -5,6 +5,6 @@ To hydrate the manifests in this repository, run the following commands:
 ```shell
 git clone https://github.com/crenshaw-dev/gitops-promoter-examples
 # cd into the cloned directory
-git checkout 8a2e3b1a2e903e89d6a6735389ba860e783304f4
+git checkout 294e95094ecb540364fb5b90585b8bb09abd90d3
 helm template . --name-template prod-helm-guestbook-east --namespace prod --values ./helm-guestbook/values.yaml --values ./helm-guestbook/values-production-east.yaml --include-crds
 ```
