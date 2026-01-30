@@ -29,7 +29,7 @@ metadata:
     release: dev-helm-guestbook
   name: dev-helm-guestbook
 spec:
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 3
   selector:
     matchLabels:
