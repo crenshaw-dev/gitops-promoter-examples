@@ -6,4 +6,4 @@ spec:
   secretRef:
     name: github-demo-secret
   github:
-    appID: 2716806
+    appID: 2762619
