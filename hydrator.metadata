@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/crenshaw-dev/gitops-promoter-examples",
-  "drySha": "12ce1e97abdba94b2f04c318e9e5c4615d42186a",
+  "drySha": "1b87995ed8f69ba6b4430a648dc13f818b669594",
   "author": "Michael Crenshaw <350466+crenshaw-dev@users.noreply.github.com>",
-  "date": "2026-01-30T20:20:20Z",
-  "subject": "Update replicaCount to 2 in values.yaml"
+  "date": "2026-02-04T21:09:18Z",
+  "subject": "Update helm-guestbook/values.yaml"
 }
