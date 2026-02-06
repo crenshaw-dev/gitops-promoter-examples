@@ -1,7 +1,19 @@
 {
   "repoURL": "https://github.com/crenshaw-dev/gitops-promoter-examples",
-  "drySha": "1b87995ed8f69ba6b4430a648dc13f818b669594",
+  "drySha": "416d21b2a28be83d13c648d966c5d2038ad9d460",
   "author": "Michael Crenshaw <350466+crenshaw-dev@users.noreply.github.com>",
-  "date": "2026-02-04T21:09:18Z",
-  "subject": "Update helm-guestbook/values.yaml"
+  "date": "2026-02-06T17:13:54Z",
+  "subject": "Scale up",
+  "references": [
+    {
+      "commit": {
+        "author": "\"Author Name\" <author@example.com>",
+        "date": "2026-01-05T13:50:18-04:00",
+        "subject": "Commit message of the code commit",
+        "body": "Commit message of the code commit\n\nSigned-off-by: Author Name <author@example.com>",
+        "sha": "956ed14782a3e11629ca1698eca397ec9ee72ad0",
+        "repoUrl": "https://github.com/argoproj-labs/gitops-promoter"
+      }
+    }
+  ]
 }
