@@ -1,7 +1,19 @@
 {
   "repoURL": "https://github.com/crenshaw-dev/gitops-promoter-examples",
-  "drySha": "8a2e3b1a2e903e89d6a6735389ba860e783304f4",
+  "drySha": "4dd37efc6d9021b6f309ee55dd6da41259d3b911",
   "author": "Michael Crenshaw <350466+crenshaw-dev@users.noreply.github.com>",
-  "date": "2026-01-29T16:21:55Z",
-  "subject": "scale down"
+  "date": "2026-02-06T17:15:44Z",
+  "subject": "Scale",
+  "references": [
+    {
+      "commit": {
+        "author": "\"Author Name\" <author@example.com>",
+        "date": "2026-01-05T13:50:18-04:00",
+        "subject": "Commit message of the code commit",
+        "body": "Commit message of the code commit\n\nSigned-off-by: Author Name <author@example.com>",
+        "sha": "956ed14782a3e11629ca1698eca397ec9ee72ad0",
+        "repoUrl": "https://github.com/argoproj-labs/gitops-promoter"
+      }
+    }
+  ]
 }
