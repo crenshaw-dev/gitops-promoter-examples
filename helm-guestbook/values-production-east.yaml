@@ -3,4 +3,4 @@ service:
 
 region: us-east-1
 
-replicaCount: 1
+replicaCount: 2
