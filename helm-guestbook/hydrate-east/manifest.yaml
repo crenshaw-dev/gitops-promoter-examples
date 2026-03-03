@@ -29,7 +29,7 @@ metadata:
     release: prod-helm-guestbook-east
   name: prod-helm-guestbook-east
 spec:
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 3
   selector:
     matchLabels:
