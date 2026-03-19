@@ -8,10 +8,10 @@ spec:
   - key: argocd-health
   environments:
     - autoMerge: true
-      branch: environment/development
+      branch: environment/development-2
     - autoMerge: true
-      branch: environment/staging
+      branch: environment/staging-2
     - autoMerge: false
-      branch: environment/prod
+      branch: environment/prod-2
   gitRepositoryRef:
     name: gitops-promoter-demo-repo
